@@ -15,10 +15,10 @@ export const Routers = () => {
             <AdminRoute  path="/main" component={HomeAdmin} />
             <AdminRoute  path="/question" component={Question} />
             <AdminRoute  path="/test" component={TestManager} />
-            <AdminRoute  path="/course" component={CourseManage} />
+            {/* <AdminRoute  path="/course" component={CourseManage} /> */}
             <AdminRoute  path="/welcome" component={WelCome} />
             <AdminRoute  path="/result" component={ManageResult} />
-            <AdminRoute  path="/mail" component={Mail} />
+            {/* <AdminRoute  path="/mail" component={Mail} /> */}
             <AdminRoute  path="/schedule" component={Schedule} />
             <AdminRoute  path="/mystudent" component={ListStudent} />
             <Route  component={Page404}/>
