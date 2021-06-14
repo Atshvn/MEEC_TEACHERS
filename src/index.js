@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Routers, RoutersUser } from "./Router";
+import { NotificationContainer } from 'react-notifications';
+import 'react-notifications/lib/notifications.css';
+import { StateProvider } from './Store/store';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <StateProvider>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={Routers} />
+      </Switch>
+      <NotificationContainer />
+    </BrowserRouter>
+  </StateProvider>
+  ,
   document.getElementById('root')
 );
 
