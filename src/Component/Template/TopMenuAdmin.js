@@ -77,29 +77,29 @@ export const TopMenuAdmin = () => {
                             <li>
                                 <Link to='/test' className="waves-effect">
                                     <i className="ion-md-basket" />
-                                    <span className="ww font-17">Quản lý bài thi </span>
+                                    <span className="ww font-16">Quản lý bài thi </span>
                                     <span className="menu-arrow" />
                                 </Link>
                                 <Link to="/result" className="waves-effect">
                                     <i className="ion-md-basket" />
-                                    <span className="ww font-17">Kết quả thi</span>
+                                    <span className="ww font-16">Kết quả thi</span>
                                     <span className="menu-arrow" />
                                 </Link>
                                 
                                 <Link to="/question" className="waves-effect">
                                     <i className="ion-md-basket" />
-                                    <span className="ww font-17"> Ngân hàng câu hỏi </span>
+                                    <span className="ww font-16"> Ngân hàng câu hỏi </span>
                                     <span className="menu-arrow" />
                                 </Link>
                                 
                                 <Link to="/schedule" className="waves-effect">
                                     <i className="ion-md-basket" />
-                                    <span className="ww font-17">  Xem lịch dạy </span>
+                                    <span className="ww font-16">  Xem lịch dạy </span>
                                     <span className="menu-arrow" />
                                 </Link>
                                 <Link to="/mystudent" className="waves-effect">
                                     <i className="ion-md-basket" />
-                                    <span className="ww font-17">  Danh sách học viên </span>
+                                    <span className="ww font-16">  Danh sách học viên </span>
                                     <span className="menu-arrow" />
                                 </Link>
                                 

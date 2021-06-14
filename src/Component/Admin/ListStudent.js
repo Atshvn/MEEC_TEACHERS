@@ -77,23 +77,8 @@ export const ListStudent = () => {
             Header: "Địa chỉ",
             accessor: "address",
             minWidth: 150
-
         }
-        
-// accountId: 3
-// address: "12 Nguyễn Văn Bảo"
-// course: null
-// courseId: 1
-// dateOfBirth: "1999-06-07T00:00:00"
-// email: "tuananh.0706999@gmail.com"
-// fullName: "Ho Sy Tuan Anh"
-// gender: "Nam"
-// passWord: "123456"
-// phoneNumber: 971718434
-// results: null
-// role: null
-// roleId: 2
-// state: true
+
     ];
    
     const clickexcel = () => {
