@@ -32,7 +32,7 @@ export const TestManager = () => {
     const [CourseID, setCourseID] = useState(0)
     const [disableBtn, setDisableBtn] = useState(false);
 
-
+    const [dateNow, setDateNow] = useState(new Date())
     const [data, setData] = useState([])
 
 
@@ -108,6 +108,10 @@ export const TestManager = () => {
             Alertwarning("Số lượng câu hỏi không hợp lệ");
             TotalQuestionRef.current.focus();
             return;
+        }
+        if(TestDate.getTime() < dateNow.getTime()){
+            Alertwarning("Thời gian thi phải lớn hơn hiện tại")
+            return
         }
 
         setEdit(false)
