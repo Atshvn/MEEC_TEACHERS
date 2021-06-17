@@ -1,4 +1,4 @@
-import { Link , useHistory} from "react-router-dom"
+import { Link , NavLink, useHistory} from "react-router-dom"
 
 export const TopMenuAdmin = () => {
     const history = useHistory();
@@ -75,33 +75,33 @@ export const TopMenuAdmin = () => {
                         <ul className="metismenu" id="side-menu">
                             <li className="menu-title ww ">Menu</li>
                             <li>
-                                <Link to='/test' className="waves-effect">
+                                <NavLink to='/test' activeClassName="active" className="waves-effect">
                                     <i className="ion-md-basket" />
                                     <span className="ww font-16">Quản lý bài thi </span>
                                     <span className="menu-arrow" />
-                                </Link>
-                                <Link to="/result" className="waves-effect">
+                                </NavLink>
+                                <NavLink to="/result" activeClassName="active" className="waves-effect">
                                     <i className="ion-md-basket" />
                                     <span className="ww font-16">Kết quả thi</span>
                                     <span className="menu-arrow" />
-                                </Link>
+                                </NavLink>
                                 
-                                <Link to="/question" className="waves-effect">
+                                <NavLink to="/question" activeClassName="active" className="waves-effect">
                                     <i className="ion-md-basket" />
                                     <span className="ww font-16"> Ngân hàng câu hỏi </span>
                                     <span className="menu-arrow" />
-                                </Link>
+                                </NavLink>
                                 
-                                <Link to="/schedule" className="waves-effect">
+                                <NavLink to="/schedule" activeClassName="active" className="waves-effect">
                                     <i className="ion-md-basket" />
                                     <span className="ww font-16">  Xem lịch dạy </span>
                                     <span className="menu-arrow" />
-                                </Link>
-                                <Link to="/mystudent" className="waves-effect">
+                                </NavLink>
+                                <NavLink to="/mystudent" activeClassName="active" className="waves-effect">
                                     <i className="ion-md-basket" />
                                     <span className="ww font-16">  Danh sách học viên </span>
                                     <span className="menu-arrow" />
-                                </Link>
+                                </NavLink>
                                 
                                
                             </li>
