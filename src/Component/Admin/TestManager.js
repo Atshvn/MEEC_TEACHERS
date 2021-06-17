@@ -94,7 +94,7 @@ export const TestManager = () => {
             TotalQuestionRef.current.focus();
             return;
         }
-        if (TotalQuestion > 120) {
+        if (TotalQuestion > 70) {
             Alertwarning("Số lượng câu hỏi quá lớn, vui lòng chọn lại");
             TotalQuestionRef.current.focus();
             return;
